@@ -22,4 +22,4 @@ Operations, grouped by general function, are split across four tools:
             local Storefront-aware proxy layer to substitute server content
             with locally modified files.
             
-Kya se KYA ho GAYA?
+Kya se KYA ho GAYA? Kyu hua?
