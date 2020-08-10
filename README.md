@@ -21,5 +21,5 @@ Operations, grouped by general function, are split across four tools:
 * CCPROXY - Testing Storefront content changes prior to upload by using a
             local Storefront-aware proxy layer to substitute server content
             with locally modified files.
-
-## Kaha grab hora dude?
+            
+Kya se KYA ho GAYA?
