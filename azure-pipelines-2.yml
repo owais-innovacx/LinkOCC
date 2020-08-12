@@ -18,6 +18,10 @@ steps:
 - script: |
     npm install -g
   displayName: 'npm install and build'
+
+- task: CmdLine@2
+  inputs:
+    script: 'gitk LinkOCC'
 - task: CmdLine@2
   inputs:
     script: 'dcu -n https://ccadmin-z0ka.oracleoutsourcing.com -k eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4ZDliZmY1YS1iODFlLTQ4NGQtOTQxMS1iNWY1N2JlNDNmMmMiLCJpc3MiOiJhcHBsaWNhdGlvbkF1dGgiLCJleHAiOjE1NTkxMTYxMDcsImlhdCI6MTUyNzU4MDEwN30=.LN3Z7c+yKBhHG2YcLZ4TKbjbTSXGsO1hjGupkFDDCME= -g -c'
